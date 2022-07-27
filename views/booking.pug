@@ -1,0 +1,23 @@
+extends base.pug
+
+block scripts 
+    script 
+        include ../static/index.js
+
+block style 
+    style 
+        include ../static/style.css
+        include ../static/styleBooking.css
+
+block content
+    #booking     
+        h2 Contact for bookings
+        #bookingForm
+            form(action="/bookings", method="post" class ="myForm")
+                input(type="text" name='name' placeholder = 'Enter your name' class='myInput')
+                input(type="phone" name='phone' placeholder = 'Enter your phone no' class='myInput')
+                input(type="text" name='Btype' placeholder = 'Enter your booking(marriage/birthday/kitty)' class='myInput')
+                input(type="number" name='guest' placeholder = 'Number of guests' class='myInput')
+                input(type="date" name='date' placeholder = 'Enter function date' class='myInput')
+                <textarea class="myInput" name="desc" rows="4" cols="33" placeholder = 'Enter your Queries'></textarea>
+                button.btn Submit

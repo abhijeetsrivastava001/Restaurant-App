@@ -1,0 +1,76 @@
+#aboutContainer{
+    background-color: whitesmoke;
+}
+
+h1{
+    position: relative;
+    top: 40px;
+    text-align: center;
+    font-size: 72px;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+
+#firstSection{
+    border: 2px solid whitesmoke;
+    background-color: rgb(228 228 228 / 31%);;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    width: 80vw;
+    margin: 35px 40px;
+    padding: 8px;
+}
+#firstSection h2{
+    font-size: 30px;
+    margin: 10px 50px;
+}
+#firstSection p{
+    font-size: 20px;
+    margin: 8px;
+}
+
+#secondSection{
+    border: 2px solid whitesmoke;
+    background-color: rgb(228 228 228 / 31%);;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    width: 80vw;
+    margin: 35px 250px;
+    padding: 8px;
+}
+#secondSection h2{
+    font-size: 30px;
+    margin: 10px 50px;
+}
+#secondSection p{
+    font-size: 20px;
+    margin: 8px;
+}
+
+#thirdSection{
+    border: 2px solid whitesmoke;
+    background-color: rgb(228 228 228 / 31%);;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    width: 80vw;
+    margin: 35px 40px;
+    padding: 8px;
+}
+#thirdSection h2{
+    font-size: 30px;
+    margin: 10px 50px;
+}
+#thirdSection p{
+    font-size: 20px;
+    margin: 8px;
+}
+
+#endSection{
+    /* border: 2px solid black; */
+    margin: 30px;
+}
+#endSection p{
+    font-size: 20px;
+    text-align: justify;
+}
+

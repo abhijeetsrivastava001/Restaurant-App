@@ -1,0 +1,46 @@
+body{
+    background-color: #582a2a;
+    color: white;
+}
+#serviceContainer h1{
+    position: relative;
+    top: 40px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+#slogan{
+    margin: 20px;
+    font-size: 42px;
+    /* background-color: yellow; */
+    color: orange;
+}
+
+.outer{
+    border: 2px solid black;
+    width: 80vw;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: #e24f00;
+}
+.outer h2{
+    text-align: center;
+    font-size: 32px;
+    margin: 10px;
+}
+
+.inner{
+    display: flex;
+}
+.inner img{
+    margin: 5px 10px;
+    height: 200px;
+    width: 250px;
+}
+.inner p{
+    align-self: center;
+    margin:5px 10px ;
+}
+

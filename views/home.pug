@@ -1,0 +1,43 @@
+extends base.pug
+
+block scripts 
+    script 
+        include ../static/index.js
+
+block style 
+    style 
+        include ../static/style.css
+        include ../static/styleHome.css
+
+block content 
+    section#introSection 
+        p akshaya paatra 
+        small Estd. since 1702
+
+    section#cuisines 
+        h2 Authentic Cuisines 
+        #card-cuisines 
+            #indian.card  
+                h3 Indian Servings 
+                img(src="/static/images/indianCuisine.jpg")
+                ul 
+                    li Chana masala. Chickpea stew.
+                    li Palak paneer. Spinach curry.
+                    li Chicken tikka. Chicken in a cream.
+                    li Doughy, butter-brushed naan.
+            #chinese.card
+                h3 Chinese Servings 
+                img(src="/static/images/chineseCuisine.jpg")
+                ul 
+                    li Fried rice. steaming rice 
+                    li Manchurian. added soy sauce
+                    li Chowmein. boiled noodles 
+                    li Chilli chicken. offal of the bird
+            #thai.card 
+                h3 Thai Servings 
+                img(src="/static/images/thaiCuisine.jpg")
+                ul 
+                    li Chicken Satay. chunky peanut sauce. 
+                    li Pad Thai. fried noodle.
+                    li Som Tam. Papaya Salad.
+                    li Thai Fish Green Curry. palak added

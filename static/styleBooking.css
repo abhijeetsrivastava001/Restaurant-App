@@ -1,0 +1,43 @@
+#booking{
+    height: 87.5vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 52px;
+}
+.myForm{
+    margin-top: 30px;
+}
+.myInput{
+    width: 70%;
+    margin: 5px auto;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+    display: block;
+}
+#bookingForm{
+    background-color: rgb(239, 239, 239);
+    border: 2px solid rgb(239, 239, 239);
+    border-radius: 20px;
+    width: 50% ;
+}
+
+.btn{
+    display: block;
+    width: 18%;
+    padding: 8px;
+    margin: 10px auto;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px solid rgb(183, 183, 183);
+    background-color: #e24f00;
+    color: white;
+}
